@@ -158,14 +158,14 @@ void MathDriver::inputExpr()
 
 void MathDriver::evaluateIdentity()
 {
-   while ( mParser.pState != ST_EOF )
-   {
+   //while ( mParser.pState != ST_EOF )
+   //{
    mParser.setParserStream(&std::cin);
    mParser.pState = ST_COMMA;
    std::vector<Element> elems;
    std::string ident;
    
-   //std::cout << "Enter " << mIdentity->getNumElems() << " elements. Each element must be followed with a comma." << std::endl;
+   std::cout << "Enter " << mIdentity->getNumElems() << " elements. Each element must be followed with a comma." << std::endl;
    
    try {
       for ( int i = 1; i <= mIdentity->getNumElems(); i++)
@@ -189,7 +189,7 @@ void MathDriver::evaluateIdentity()
       *output << "\n\n\n\nSubstitued identity: " << ident << "\n\n\n\n";
    }
    
-   //std::cout << "\nEvaluating the identity. Please be patient it may take a while..." << std::endl;
+   std::cout << "\nEvaluating the identity. Please be patient it may take a while..." << std::endl;
    std::istringstream inp(ident.c_str());
    mParser.setParserStream(&inp);
    
@@ -232,7 +232,7 @@ void MathDriver::evaluateIdentity()
    std::cout << std::endl;
    
    
-   }
+   //}
 }
 
 //=================================================================================================================//
