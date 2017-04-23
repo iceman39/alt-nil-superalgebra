@@ -415,7 +415,10 @@ std::string Parser::parseCoeff()
             {
                mExprStack.push_back(StackEl(STACK_MULT));
                
-               gActualExpress += " ** ";
+               if ( latexForm )
+                  gActualExpress += "*";
+               else
+                  gActualExpress += "**";
             }
             else if (mID == DELIM_COMMA && pState == ST_EXPR )
             {
@@ -512,7 +515,10 @@ std::string Parser::parseCoeff()
             {
                mExprStack.push_back(StackEl(STACK_MULT));
                
-               gActualExpress += " ** ";
+               if ( latexForm )
+                  gActualExpress += "*";
+               else
+                  gActualExpress += "**";
             }
             else if (mID == DELIM_COMMA && pState == ST_EXPR && res.length() == 0 )
             {
@@ -622,6 +628,9 @@ std::vector<Element> Parser::parseExpression(MultiplicationTable * tbl)
       
       if ( tmp.getType() != EL_ZERO )
       {
+         if ( !mExprStack.empty() && mExprStack.back().mStackType == STACK_ELEMENT && !gActualExpress.empty() && gActualExpress.back() != ')' )
+            gActualExpress += " + ";
+         
          mExprStack.push_back(StackEl(STACK_ELEMENT,tmp));
          
          if ( latexForm )
