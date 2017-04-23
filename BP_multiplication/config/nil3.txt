@@ -1,0 +1,12 @@
+# Identity of nil-3 algebra:
+W(a, b, c) = (a**b)**c + 
+
+(-1)^( sgn(a)(sgn(b) + sgn(c) ))*(b**c)**a + 
+
+(-1)^( sgn(c) (sgn(a) + sgn(b)))*(c**a)**b + 
+
+(-1)^(sgn(b) sgn(c))*(a**c)**b + 
+
+(-1)^(sgn(a) sgn(b))*(b**a)**c + 
+
+(-1)^( sgn(a) sgn(b) + sgn(a) sgn(c) + sgn(b) sgn(c))*(c**b)**a,

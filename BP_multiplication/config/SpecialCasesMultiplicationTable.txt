@@ -1,0 +1,9 @@
+#special cases for fixed square bracket exponent on the left side = 3 or 4
+
+t^(n)x^[3] t^(m)x^[i] = (-1)^(i)(1)/(2)*t^(m + n)u^[i] - (-1)^(i)(1)/(2)*t^(m + n)z^[i + 1],
+t^(n)x^[3] t^(m)(x^[k]x) = (-1)^(k)(1)/(2)*t^(n + m)u^[k]x - (-1)^(k)(1)/(2)*t^(n + m)z^[k+1]x + (-1)^(k)/(3)*t^(n + m)z^[k+2],
+t^(n)x^[4] t^(m)x^[k] = (1)/(2)*t^(n + m)u^[k+1] + t^(n + m + 1)z^[k] + (1)/(2)*t^(n + m)z^[k + 2],
+
+#added rule by me
+t^(n)x^[4] t^(m)x^[k]x = (1)/(2)*t^(n + m)u^[k+1]x + t^(n + m + 1)z^[k]x + (1)/(2)*t^(n + m)z^[k + 2]x + (1)/(3)*t^(n + m)z^[k+3],
+

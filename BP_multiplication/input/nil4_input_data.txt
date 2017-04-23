@@ -1,0 +1,25 @@
+#nil_4 : test data:
+
+Combinations with repetition (n=4, r=4)
+Using Items: x,t,x^[k],x^[k]x
+
+List has 35 entries.
+{x,x,x,x} {x,x,x,t} {x,x,x,x^[k]} {x,x,x,x^[k]x} {x,x,t,t} {x,x,t,x^[k]} {x,x,t,x^[k]x} {x,x,x^[k],x^[k]} {x,x,x^[k],x^[k]x} {x,x,x^[k]x,x^[k]x} {x,t,t,t} {x,t,t,x^[k]} {x,t,t,x^[k]x} {x,t,x^[k],x^[k]} {x,t,x^[k],x^[k]x} {x,t,x^[k]x,x^[k]x} {x,x^[k],x^[k],x^[k]} {x,x^[k],x^[k],x^[k]x} {x,x^[k],x^[k]x,x^[k]x} {x,x^[k]x,x^[k]x,x^[k]x} {t,t,t,t} {t,t,t,x^[k]} {t,t,t,x^[k]x} {t,t,x^[k],x^[k]} {t,t,x^[k],x^[k]x} {t,t,x^[k]x,x^[k]x} {t,x^[k],x^[k],x^[k]} {t,x^[k],x^[k],x^[k]x} {t,x^[k],x^[k]x,x^[k]x} {t,x^[k]x,x^[k]x,x^[k]x} {x^[k],x^[k],x^[k],x^[k]} {x^[k],x^[k],x^[k],x^[k]x} {x^[k],x^[k],x^[k]x,x^[k]x} {x^[k],x^[k]x,x^[k]x,x^[k]x} {x^[k]x,x^[k]x,x^[k]x,x^[k]x}
+
++ 
+
+
+Combinations with repetition (n=4, r=4)
+Using Items: x,t,u^[k],u^[k]x
+
+List has 35 entries.
+{x,x,x,x} {x,x,x,t} {x,x,x,u^[k]} {x,x,x,u^[k]x} {x,x,t,t} {x,x,t,u^[k]} {x,x,t,u^[k]x} {x,x,u^[k],u^[k]} {x,x,u^[k],u^[k]x} {x,x,u^[k]x,u^[k]x} {x,t,t,t} {x,t,t,u^[k]} {x,t,t,u^[k]x} {x,t,u^[k],u^[k]} {x,t,u^[k],u^[k]x} {x,t,u^[k]x,u^[k]x} {x,u^[k],u^[k],u^[k]} {x,u^[k],u^[k],u^[k]x} {x,u^[k],u^[k]x,u^[k]x} {x,u^[k]x,u^[k]x,u^[k]x} {t,t,t,t} {t,t,t,u^[k]} {t,t,t,u^[k]x} {t,t,u^[k],u^[k]} {t,t,u^[k],u^[k]x} {t,t,u^[k]x,u^[k]x} {t,u^[k],u^[k],u^[k]} {t,u^[k],u^[k],u^[k]x} {t,u^[k],u^[k]x,u^[k]x} {t,u^[k]x,u^[k]x,u^[k]x} {u^[k],u^[k],u^[k],u^[k]} {u^[k],u^[k],u^[k],u^[k]x} {u^[k],u^[k],u^[k]x,u^[k]x} {u^[k],u^[k]x,u^[k]x,u^[k]x} {u^[k]x,u^[k]x,u^[k]x,u^[k]x}
+
+
++ 
+
+Combinations with repetition (n=4, r=4)
+Using Items: x,t,z^[k],z^[k]x
+
+List has 35 entries.
+{x,x,x,x} {x,x,x,t} {x,x,x,z^[k]} {x,x,x,z^[k]x} {x,x,t,t} {x,x,t,z^[k]} {x,x,t,z^[k]x} {x,x,z^[k],z^[k]} {x,x,z^[k],z^[k]x} {x,x,z^[k]x,z^[k]x} {x,t,t,t} {x,t,t,z^[k]} {x,t,t,z^[k]x} {x,t,z^[k],z^[k]} {x,t,z^[k],z^[k]x} {x,t,z^[k]x,z^[k]x} {x,z^[k],z^[k],z^[k]} {x,z^[k],z^[k],z^[k]x} {x,z^[k],z^[k]x,z^[k]x} {x,z^[k]x,z^[k]x,z^[k]x} {t,t,t,t} {t,t,t,z^[k]} {t,t,t,z^[k]x} {t,t,z^[k],z^[k]} {t,t,z^[k],z^[k]x} {t,t,z^[k]x,z^[k]x} {t,z^[k],z^[k],z^[k]} {t,z^[k],z^[k],z^[k]x} {t,z^[k],z^[k]x,z^[k]x} {t,z^[k]x,z^[k]x,z^[k]x} {z^[k],z^[k],z^[k],z^[k]} {z^[k],z^[k],z^[k],z^[k]x} {z^[k],z^[k],z^[k]x,z^[k]x} {z^[k],z^[k]x,z^[k]x,z^[k]x} {z^[k]x,z^[k]x,z^[k]x,z^[k]x}

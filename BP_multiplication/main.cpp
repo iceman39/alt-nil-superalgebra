@@ -7,9 +7,34 @@
 //
 
 #include <iostream>
+#include "MathDriver.hpp"
+//#include "element.hpp"
+//#include "KernelConnection.hpp"
+
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+   
+   // to debug multiplication table parsing
+   if ( argc > 1 && strcmp(argv[1], "-v") == 0 )
+      verbose = true;
+   
+   MathDriver driver(argv[0]);
+   
+   driver.parseMultTable(SpecialMultTableFile, true); // it can fail
+   
+   if ( driver.parseMultTable(MultTableFile) == true )
+   {
+      driver.parseIdentity(IdentityFileNil3); // load nil3 ident file
+      
+      
+//      std::ifstream ifs ("input/aa.txt", std::ifstream::in);
+      
+  //    cin.rdbuf( ifs.rdbuf() ); // redirect input
+      
+      driver.showMenu();
+   }
+
+   return 0;
 }
+

@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4CDCF5491E80729F00506634 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCF5481E80729F00506634 /* main.cpp */; };
+		4C2C7CB41E86C5D900AA71B2 /* Element.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C7CB21E86C5D900AA71B2 /* Element.cpp */; };
+		4C2C7CB81E86D33900AA71B2 /* Multiplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C7CB61E86D33900AA71B2 /* Multiplication.cpp */; };
+		4C2C7CBF1E885B8D00AA71B2 /* KernelConnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C7CBD1E885B8D00AA71B2 /* KernelConnection.cpp */; };
+		4C7BCCA81E9D10EB004CAEAE /* TokenTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C7BCCA71E9D10EB004CAEAE /* TokenTypes.cpp */; };
+		4C7BCCAC1EAA6C26004CAEAE /* code_storage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C7BCCAB1EAA6C25004CAEAE /* code_storage.cpp */; };
+		4C7BCCB01EABFBF2004CAEAE /* Identity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C7BCCAE1EABFBF1004CAEAE /* Identity.cpp */; };
+		4CDCF5491E80729F00506634 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCF5481E80729F00506634 /* Main.cpp */; };
+		4CDCF5511E8072F500506634 /* Parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCF54F1E8072F500506634 /* Parser.cpp */; };
+		4CF2EB3B1E92EE9800D160AA /* MathDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2EB391E92EE9800D160AA /* MathDriver.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,12 +31,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4C2C7CB21E86C5D900AA71B2 /* Element.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Element.cpp; sourceTree = "<group>"; };
+		4C2C7CB31E86C5D900AA71B2 /* Element.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Element.hpp; sourceTree = "<group>"; };
+		4C2C7CB51E86C74F00AA71B2 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		4C2C7CB61E86D33900AA71B2 /* Multiplication.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Multiplication.cpp; sourceTree = "<group>"; };
+		4C2C7CB71E86D33900AA71B2 /* Multiplication.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Multiplication.hpp; sourceTree = "<group>"; };
+		4C2C7CBA1E885AA700AA71B2 /* Mathematica.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = Mathematica.app; path = ../../../../../../Applications/Mathematica.app; sourceTree = "<group>"; };
+		4C2C7CBD1E885B8D00AA71B2 /* KernelConnection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KernelConnection.cpp; sourceTree = "<group>"; };
+		4C2C7CBE1E885B8D00AA71B2 /* KernelConnection.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = KernelConnection.hpp; sourceTree = "<group>"; };
+		4C7BCCA71E9D10EB004CAEAE /* TokenTypes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TokenTypes.cpp; path = flex/TokenTypes.cpp; sourceTree = SOURCE_ROOT; };
+		4C7BCCAB1EAA6C25004CAEAE /* code_storage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = code_storage.cpp; sourceTree = "<group>"; };
+		4C7BCCAD1EAA6E22004CAEAE /* Tokenizer.lex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Tokenizer.lex; path = flex/Tokenizer.lex; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		4C7BCCAE1EABFBF1004CAEAE /* Identity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Identity.cpp; sourceTree = "<group>"; };
+		4C7BCCAF1EABFBF2004CAEAE /* Identity.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Identity.hpp; sourceTree = "<group>"; };
 		4CDCF5451E80729F00506634 /* BP_multiplication */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BP_multiplication; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CDCF5481E80729F00506634 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4CDCF5481E80729F00506634 /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		4CDCF54F1E8072F500506634 /* Parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Parser.cpp; sourceTree = "<group>"; };
+		4CDCF5501E8072F500506634 /* Parser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Parser.hpp; sourceTree = "<group>"; };
+		4CF2EB351E92E44600D160AA /* TokenTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TokenTypes.h; path = flex/TokenTypes.h; sourceTree = SOURCE_ROOT; };
+		4CF2EB391E92EE9800D160AA /* MathDriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MathDriver.cpp; sourceTree = "<group>"; };
+		4CF2EB3A1E92EE9800D160AA /* MathDriver.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MathDriver.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4CDCF5421E80729E00506634 /* Frameworks */ = {
+		4C2C7CBC1E885ABC00AA71B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,13 +64,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C2C7CB91E885AA700AA71B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C2C7CBA1E885AA700AA71B2 /* Mathematica.app */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4CDCF53C1E80729E00506634 = {
 			isa = PBXGroup;
 			children = (
 				4CDCF5471E80729F00506634 /* BP_multiplication */,
 				4CDCF5461E80729F00506634 /* Products */,
+				4C2C7CB91E885AA700AA71B2 /* Frameworks */,
 			);
+			indentWidth = 3;
 			sourceTree = "<group>";
+			tabWidth = 3;
+			usesTabs = 0;
 		};
 		4CDCF5461E80729F00506634 /* Products */ = {
 			isa = PBXGroup;
@@ -57,7 +95,24 @@
 		4CDCF5471E80729F00506634 /* BP_multiplication */ = {
 			isa = PBXGroup;
 			children = (
-				4CDCF5481E80729F00506634 /* main.cpp */,
+				4C2C7CB51E86C74F00AA71B2 /* Constants.h */,
+				4CDCF5481E80729F00506634 /* Main.cpp */,
+				4CDCF5501E8072F500506634 /* Parser.hpp */,
+				4CDCF54F1E8072F500506634 /* Parser.cpp */,
+				4CF2EB3A1E92EE9800D160AA /* MathDriver.hpp */,
+				4CF2EB391E92EE9800D160AA /* MathDriver.cpp */,
+				4C7BCCAE1EABFBF1004CAEAE /* Identity.cpp */,
+				4C7BCCAF1EABFBF2004CAEAE /* Identity.hpp */,
+				4C2C7CBE1E885B8D00AA71B2 /* KernelConnection.hpp */,
+				4C2C7CBD1E885B8D00AA71B2 /* KernelConnection.cpp */,
+				4C2C7CB31E86C5D900AA71B2 /* Element.hpp */,
+				4C2C7CB21E86C5D900AA71B2 /* Element.cpp */,
+				4C2C7CB71E86D33900AA71B2 /* Multiplication.hpp */,
+				4C2C7CB61E86D33900AA71B2 /* Multiplication.cpp */,
+				4CF2EB351E92E44600D160AA /* TokenTypes.h */,
+				4C7BCCA71E9D10EB004CAEAE /* TokenTypes.cpp */,
+				4C7BCCAD1EAA6E22004CAEAE /* Tokenizer.lex */,
+				4C7BCCAB1EAA6C25004CAEAE /* code_storage.cpp */,
 			);
 			path = BP_multiplication;
 			sourceTree = "<group>";
@@ -70,8 +125,8 @@
 			buildConfigurationList = 4CDCF54C1E80729F00506634 /* Build configuration list for PBXNativeTarget "BP_multiplication" */;
 			buildPhases = (
 				4CDCF5411E80729E00506634 /* Sources */,
-				4CDCF5421E80729E00506634 /* Frameworks */,
 				4CDCF5431E80729E00506634 /* CopyFiles */,
+				4C2C7CBC1E885ABC00AA71B2 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -119,7 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CDCF5491E80729F00506634 /* main.cpp in Sources */,
+				4C7BCCB01EABFBF2004CAEAE /* Identity.cpp in Sources */,
+				4C7BCCA81E9D10EB004CAEAE /* TokenTypes.cpp in Sources */,
+				4C2C7CBF1E885B8D00AA71B2 /* KernelConnection.cpp in Sources */,
+				4C7BCCAC1EAA6C26004CAEAE /* code_storage.cpp in Sources */,
+				4CDCF5511E8072F500506634 /* Parser.cpp in Sources */,
+				4C2C7CB41E86C5D900AA71B2 /* Element.cpp in Sources */,
+				4C2C7CB81E86D33900AA71B2 /* Multiplication.cpp in Sources */,
+				4CDCF5491E80729F00506634 /* Main.cpp in Sources */,
+				4CF2EB3B1E92EE9800D160AA /* MathDriver.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +279,8 @@
 		4CDCF54D1E80729F00506634 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Applications/Mathematica.app/Contents/SystemFiles/Links/WSTP/DeveloperKit/MacOSX-x86-64/CompilerAdditions/";
+				LIBRARY_SEARCH_PATHS = "/Applications/Mathematica.app/Contents/SystemFiles/Links/WSTP/DeveloperKit/MacOSX-x86-64/CompilerAdditions/";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -223,6 +288,8 @@
 		4CDCF54E1E80729F00506634 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Applications/Mathematica.app/Contents/SystemFiles/Links/WSTP/DeveloperKit/MacOSX-x86-64/CompilerAdditions/";
+				LIBRARY_SEARCH_PATHS = "/Applications/Mathematica.app/Contents/SystemFiles/Links/WSTP/DeveloperKit/MacOSX-x86-64/CompilerAdditions/";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -246,6 +313,7 @@
 				4CDCF54E1E80729F00506634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
