@@ -1,0 +1,2 @@
+# Identity of nil-2 algebra:
+W(a, b) = a**b + (-1)^(sgn(a) sgn(b))*(b**a),
