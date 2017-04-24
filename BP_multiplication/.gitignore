@@ -2,3 +2,4 @@
 a
 executable
 *.txt
+input/*
